@@ -13,7 +13,7 @@ public class Specialcase2
 		navigate();
 		login();
 		minimizewindow();
-	  createuser123();
+	    createuser123();
 		loginuser123admin();
 		login123();
 		adminlogindel123();
@@ -215,30 +215,32 @@ public class Specialcase2
 			Thread.sleep(2000);
 			c1.findElement(By.name("pwd")).sendKeys("user1");
 			Thread.sleep(2000);
-			c1.findElement(By.xpath("//div[@class='startExploringLink']")).click();
-			Thread.sleep(2000);
+			/*c1.findElement(By.xpath("//div[@class='startExploringLink']")).click();
+			Thread.sleep(2000);*/
 			c1.findElement(By.id("loginButtonContainer")).click();
 			Thread.sleep(2000);
 			c1.findElement(By.xpath("//a[@href='/logout.do']")).click();
 			Thread.sleep(2000);
+			
 			c1.findElement(By.id("username")).sendKeys("pritham");
 			Thread.sleep(2000);
 			c1.findElement(By.name("pwd")).sendKeys("user2");
 			Thread.sleep(2000);
 			c1.findElement(By.id("loginButtonContainer")).click();
 			Thread.sleep(2000);
-			c1.findElement(By.xpath("//div[@class='startExploringLink']")).click();
-			Thread.sleep(2000);
+			/*c1.findElement(By.xpath("//div[@class='startExploringLink']")).click();
+			Thread.sleep(2000);*/
 			c1.findElement(By.xpath("//a[@href='/logout.do']")).click();
 			Thread.sleep(2000);
+			
 			c1.findElement(By.id("username")).sendKeys("pavan");
 			Thread.sleep(2000);
 			c1.findElement(By.name("pwd")).sendKeys("user3");
 			Thread.sleep(2000);
 			c1.findElement(By.id("loginButtonContainer")).click();
 			Thread.sleep(2000);
-			c1.findElement(By.xpath("//div[@class='startExploringLink']")).click();
-			Thread.sleep(2000);
+			/*c1.findElement(By.xpath("//div[@class='startExploringLink']")).click();
+			Thread.sleep(2000);*/
 			c1.findElement(By.xpath("//a[@href='/logout.do']")).click();
 			Thread.sleep(2000);
 		} 
