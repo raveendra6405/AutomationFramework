@@ -12,11 +12,11 @@ public class Specialcase2
 		launchbrowser();
 		navigate();
 		login();
-	//	minimizewindow();
-	//  createuser123();
-	//	loginuser123admin();
-	//	login123();
-	//	adminlogindel123();
+		minimizewindow();
+	  createuser123();
+		loginuser123admin();
+		login123();
+		adminlogindel123();
 	}
 	static void launchbrowser()
 	{
